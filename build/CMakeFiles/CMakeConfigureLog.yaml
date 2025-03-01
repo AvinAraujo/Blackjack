@@ -633,3 +633,93 @@ events:
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.43.1
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:145 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5"
+      binary: "C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_151d1/fast
+        mingw32-make[1]: Entering directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5'
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_151d1.dir\\build.make CMakeFiles/cmTC_151d1.dir/build
+        mingw32-make[2]: Entering directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5'
+        Building C object CMakeFiles/cmTC_151d1.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_151d1.dir\\src.c.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkc9u5\\src.c
+        Linking C executable cmTC_151d1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_151d1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_151d1.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_151d1.dir/objects.a @CMakeFiles\\cmTC_151d1.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_151d1.dir/objects.a -Wl,--no-whole-archive -o cmTC_151d1.exe -Wl,--out-implib,libcmTC_151d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_151d1.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5'
+        mingw32-make[1]: Leaving directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-dkc9u5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:190 (find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1"
+      binary: "C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3c1a3/fast
+        mingw32-make[1]: Entering directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1'
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3c1a3.dir\\build.make CMakeFiles/cmTC_3c1a3.dir/build
+        mingw32-make[2]: Entering directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1'
+        Building CXX object CMakeFiles/cmTC_3c1a3.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_3c1a3.dir\\src.cxx.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onewj1\\src.cxx
+        Linking CXX executable cmTC_3c1a3.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3c1a3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3c1a3.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3c1a3.dir/objects.a @CMakeFiles\\cmTC_3c1a3.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_3c1a3.dir/objects.a -Wl,--no-whole-archive -o cmTC_3c1a3.exe -Wl,--out-implib,libcmTC_3c1a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3c1a3.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1'
+        mingw32-make[1]: Leaving directory 'C:/Users/14804/Desktop/Blackjack/build/CMakeFiles/CMakeScratch/TryCompile-onewj1'
+        
+      exitCode: 0
+...

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "BlackJack.exe"
   "BlackJack.exe.manifest"
   "BlackJack.pdb"
+  "CMakeFiles/BlackJack.dir/Gui.cpp.obj"
+  "CMakeFiles/BlackJack.dir/Gui.cpp.obj.d"
   "CMakeFiles/BlackJack.dir/Main.cpp.obj"
   "CMakeFiles/BlackJack.dir/Main.cpp.obj.d"
   "libBlackJack.dll.a"

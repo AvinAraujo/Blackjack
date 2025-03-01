@@ -1,8 +1,14 @@
 [
 {
   "directory": "C:/Users/14804/Desktop/Blackjack/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe   -g -o CMakeFiles\\BlackJack.dir\\Main.cpp.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\Main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackJack.dir\\Main.cpp.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\Main.cpp",
   "file": "C:/Users/14804/Desktop/Blackjack/Main.cpp",
   "output": "CMakeFiles/BlackJack.dir/Main.cpp.obj"
+},
+{
+  "directory": "C:/Users/14804/Desktop/Blackjack/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackJack.dir\\Gui.cpp.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\Gui.cpp",
+  "file": "C:/Users/14804/Desktop/Blackjack/Gui.cpp",
+  "output": "CMakeFiles/BlackJack.dir/Gui.cpp.obj"
 }
 ]

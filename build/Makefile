@@ -522,6 +522,30 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+Gui.obj: Gui.cpp.obj
+.PHONY : Gui.obj
+
+# target to build an object file
+Gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/Gui.cpp.obj
+.PHONY : Gui.cpp.obj
+
+Gui.i: Gui.cpp.i
+.PHONY : Gui.i
+
+# target to preprocess a source file
+Gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/Gui.cpp.i
+.PHONY : Gui.cpp.i
+
+Gui.s: Gui.cpp.s
+.PHONY : Gui.s
+
+# target to generate assembly for a file
+Gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/Gui.cpp.s
+.PHONY : Gui.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -586,6 +610,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... BlackJack
+	@echo ... Gui.obj
+	@echo ... Gui.i
+	@echo ... Gui.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
