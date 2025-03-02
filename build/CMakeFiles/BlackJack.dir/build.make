@@ -76,30 +76,30 @@ CMakeFiles/BlackJack.dir/Main.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/Main.cpp.obj: C:/Users/14804/Desktop/Blackjack/Main.cpp
 CMakeFiles/BlackJack.dir/Main.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlackJack.dir/Main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackJack.dir/Main.cpp.obj -MF CMakeFiles\BlackJack.dir\Main.cpp.obj.d -o CMakeFiles\BlackJack.dir\Main.cpp.obj -c C:\Users\14804\Desktop\Blackjack\Main.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackJack.dir/Main.cpp.obj -MF CMakeFiles\BlackJack.dir\Main.cpp.obj.d -o CMakeFiles\BlackJack.dir\Main.cpp.obj -c C:\Users\14804\Desktop\Blackjack\Main.cpp
 
 CMakeFiles/BlackJack.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\14804\Desktop\Blackjack\Main.cpp > CMakeFiles\BlackJack.dir\Main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\14804\Desktop\Blackjack\Main.cpp > CMakeFiles\BlackJack.dir\Main.cpp.i
 
 CMakeFiles/BlackJack.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\14804\Desktop\Blackjack\Main.cpp -o CMakeFiles\BlackJack.dir\Main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\14804\Desktop\Blackjack\Main.cpp -o CMakeFiles\BlackJack.dir\Main.cpp.s
 
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: C:/Users/14804/Desktop/Blackjack/Gui.cpp
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackJack.dir/Gui.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackJack.dir/Gui.cpp.obj -MF CMakeFiles\BlackJack.dir\Gui.cpp.obj.d -o CMakeFiles\BlackJack.dir\Gui.cpp.obj -c C:\Users\14804\Desktop\Blackjack\Gui.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackJack.dir/Gui.cpp.obj -MF CMakeFiles\BlackJack.dir\Gui.cpp.obj.d -o CMakeFiles\BlackJack.dir\Gui.cpp.obj -c C:\Users\14804\Desktop\Blackjack\Gui.cpp
 
 CMakeFiles/BlackJack.dir/Gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Gui.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\14804\Desktop\Blackjack\Gui.cpp > CMakeFiles\BlackJack.dir\Gui.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\14804\Desktop\Blackjack\Gui.cpp > CMakeFiles\BlackJack.dir\Gui.cpp.i
 
 CMakeFiles/BlackJack.dir/Gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Gui.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\14804\Desktop\Blackjack\Gui.cpp -o CMakeFiles\BlackJack.dir\Gui.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\14804\Desktop\Blackjack\Gui.cpp -o CMakeFiles\BlackJack.dir\Gui.cpp.s
 
 # Object files for target BlackJack
 BlackJack_OBJECTS = \
