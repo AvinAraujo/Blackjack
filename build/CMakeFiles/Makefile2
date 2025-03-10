@@ -84,12 +84,12 @@ clean: CMakeFiles/BlackJack.dir/clean
 CMakeFiles/BlackJack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=1,2,3 "Built target BlackJack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=1,2 "Built target BlackJack"
 .PHONY : CMakeFiles/BlackJack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BlackJack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\14804\Desktop\Blackjack\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\14804\Desktop\Blackjack\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BlackJack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\14804\Desktop\Blackjack\build\CMakeFiles 0
 .PHONY : CMakeFiles/BlackJack.dir/rule
@@ -101,7 +101,7 @@ BlackJack: CMakeFiles/BlackJack.dir/rule
 # codegen rule for target.
 CMakeFiles/BlackJack.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target BlackJack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=1,2 "Finished codegen for target BlackJack"
 .PHONY : CMakeFiles/BlackJack.dir/codegen
 
 # clean rule for target.

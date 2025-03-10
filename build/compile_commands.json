@@ -4,11 +4,5 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\BlackJack.dir\\Main.cpp.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\Main.cpp",
   "file": "C:/Users/14804/Desktop/Blackjack/Main.cpp",
   "output": "CMakeFiles/BlackJack.dir/Main.cpp.obj"
-},
-{
-  "directory": "C:/Users/14804/Desktop/Blackjack/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\BlackJack.dir\\Gui.cpp.obj -c C:\\Users\\14804\\Desktop\\Blackjack\\Gui.cpp",
-  "file": "C:/Users/14804/Desktop/Blackjack/Gui.cpp",
-  "output": "CMakeFiles/BlackJack.dir/Gui.cpp.obj"
 }
 ]

@@ -4,8 +4,6 @@
 #include <limits>
 #include <random>
 #include <algorithm>
-#include <QApplication>
-#include "Gui.h"
 
 using namespace std;
 
@@ -127,27 +125,20 @@ void startMenu(int &difficulty, vector<Player> &Table) {
 }
 
 
-int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
+int main(){
+    // Initialize the table with one player, the Dealer
+    vector<Player> Table = {{"Dealer"}};
+    Deck deck;
+    int difficulty = 1; // Flag to store the difficulty level
 
-    SimpleGui window;
-    window.resize(250, 150);
-    window.setWindowTitle("Blackjack GUI");
-    window.show();
+    // Start the game and add players
+    startMenu(difficulty, Table);
 
-    // // Initialize the table with one player, the Dealer
-    // vector<Player> Table = {{"Dealer"}};
-    // Deck deck;
-    // int difficulty = 1; // Flag to store the difficulty level
+    deck.initialize(difficulty);
 
-    // // Start the game and add players
-    // startMenu(difficulty, Table);
+    for (int i = 0; i < 3; i++) { // Shuffle 3 times for better randomness
+        deck.shuffleDeck();
+    }
 
-    // deck.initialize(difficulty);
-
-    // for (int i = 0; i < 3; i++) { // Shuffle 3 times for better randomness
-    //     deck.shuffleDeck();
-    // }
-
-    return app.exec();
+    return 0;
 }
