@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.16"
+						"string" : "4.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BlackJack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BlackJack-Debug-dc105efb5f8d9f774536.json",
+					"jsonFile" : "target-BlackJack-Debug-434dfcae83d7298fdb5d.json",
 					"name" : "BlackJack",
 					"projectIndex" : 0
 				}

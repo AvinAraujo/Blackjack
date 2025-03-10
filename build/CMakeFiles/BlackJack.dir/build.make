@@ -72,7 +72,6 @@ CMakeFiles/BlackJack.dir/codegen:
 .PHONY : CMakeFiles/BlackJack.dir/codegen
 
 CMakeFiles/BlackJack.dir/Main.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
-CMakeFiles/BlackJack.dir/Main.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/Main.cpp.obj: C:/Users/14804/Desktop/Blackjack/Main.cpp
 CMakeFiles/BlackJack.dir/Main.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlackJack.dir/Main.cpp.obj"
@@ -87,7 +86,6 @@ CMakeFiles/BlackJack.dir/Main.cpp.s: cmake_force
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\14804\Desktop\Blackjack\Main.cpp -o CMakeFiles\BlackJack.dir\Main.cpp.s
 
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
-CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: C:/Users/14804/Desktop/Blackjack/Gui.cpp
 CMakeFiles/BlackJack.dir/Gui.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\14804\Desktop\Blackjack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackJack.dir/Gui.cpp.obj"
@@ -112,9 +110,6 @@ BlackJack_EXTERNAL_OBJECTS =
 BlackJack.exe: CMakeFiles/BlackJack.dir/Main.cpp.obj
 BlackJack.exe: CMakeFiles/BlackJack.dir/Gui.cpp.obj
 BlackJack.exe: CMakeFiles/BlackJack.dir/build.make
-BlackJack.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Widgets.a
-BlackJack.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a
-BlackJack.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a
 BlackJack.exe: CMakeFiles/BlackJack.dir/linkLibs.rsp
 BlackJack.exe: CMakeFiles/BlackJack.dir/objects1.rsp
 BlackJack.exe: CMakeFiles/BlackJack.dir/link.txt

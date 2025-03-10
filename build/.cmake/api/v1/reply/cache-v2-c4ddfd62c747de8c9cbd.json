@@ -6303,7 +6303,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6"
+			"value" : "Qt6_DIR-NOTFOUND"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
